@@ -77,3 +77,25 @@ footer {
   text-align: center;
   padding: 20px;
 }
+/* Stile pulsante Torna su */
+#btnTop {
+  display: none; /* nascosto all’inizio */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #2B4C7E; /* colore principale del logo */
+  color: #FFFFFF;            /* colore del simbolo ↑ */
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+#btnTop:hover {
+  background-color: #1E3557; /* variante più scura per hover */
+}
