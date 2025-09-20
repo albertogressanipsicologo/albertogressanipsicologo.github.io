@@ -114,26 +114,26 @@
   <footer>
     <p>&copy; 2025 Dott. Alberto Gressani | Ordine degli Psicologi del Friuli Venezia Giulia n° 1812 | p.i. 02912300304 - Tutti i diritti riservati</p>
   </footer>
-<!-- Pulsante Torna su -->
-<button onclick="topFunction()" id="btnTop" title="Torna su">↑</button>
-<script>
-// Mostra il pulsante quando si scorre in basso
-let btnTop = document.getElementById("btnTop");
+  <!-- Pulsante Torna su -->
+  <button onclick="topFunction()" id="btnTop" title="Torna su">↑</button>
+  <script>
+  // Mostra il pulsante quando si scorre in basso
+  let btnTop = document.getElementById("btnTop");
 
-window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    btnTop.style.display = "block";
-  } else {
-    btnTop.style.display = "none";
+  function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btnTop.style.display = "block";
+    } else {
+      btnTop.style.display = "none";
+    }
   }
-}
 
-// Torna su quando si clicca il pulsante
-function topFunction() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+  // Torna su quando si clicca il pulsante
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 </script>
 
 </body>
