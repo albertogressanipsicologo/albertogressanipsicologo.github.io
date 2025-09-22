@@ -14,9 +14,9 @@ header {
   border-bottom: 2px solid #ddd;
 }
 header img.logo {
-  height: 140px;   /* aumenta la dimensione del logo (prova 120 o 140px) */
+  height: 150px;   /* aumenta la dimensione del logo (prova 120 o 140px) */
   width: auto;
-  margin-bottom: 5px; /* riduce lo spazio sotto il logo */
+  margin-bottom: 0px; /* riduce lo spazio sotto il logo */
 }
 
 header h1 {
