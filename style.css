@@ -13,9 +13,14 @@ header {
   background: #fdfdfd;
   border-bottom: 2px solid #ddd;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spazio tra logo e testo */
+}
 
 header .logo {
-  max-height: 120px;
+  max-height: 150px;
 }
 
 nav {
