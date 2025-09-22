@@ -13,7 +13,7 @@ header {
   background: #fdfdfd;
   border-bottom: 2px solid #ddd;
 }
-header img.logo {
+header .logo {
   height: 150px;   /* aumenta la dimensione del logo (prova 120 o 140px) */
   width: auto;
   margin-bottom: 0px; /* riduce lo spazio sotto il logo */
