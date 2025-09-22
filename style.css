@@ -15,7 +15,6 @@ header {
 }
 .logo-container {
   display: block;
-  align-items: center;
   gap: 10px; /* spazio tra logo e testo */
 }
 
