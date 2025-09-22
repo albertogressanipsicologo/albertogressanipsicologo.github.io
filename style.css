@@ -15,11 +15,12 @@ header {
 }
 .logo-container {
   display: block;
-  gap: 10px; /* spazio tra logo e testo */
+  gap: 5px; /* spazio tra logo e testo */
 }
 
 header .logo {
   max-height: 150px;
+  margin: 0 auto;
 }
 
 nav {
