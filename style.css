@@ -130,7 +130,7 @@ footer {
   z-index: -1;
 }
 header img {
-  height: 100px;   /* aumenta o diminuisci questo valore */
+  height: 150px;   /* aumenta o diminuisci questo valore */
   width: auto;    /* mantiene le proporzioni */
 }
 
