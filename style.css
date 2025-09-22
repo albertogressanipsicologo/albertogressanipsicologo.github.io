@@ -9,13 +9,18 @@ body {
 
 header {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   background: #fdfdfd;
   border-bottom: 2px solid #ddd;
 }
+header img.logo {
+  height: 140px;   /* aumenta la dimensione del logo (prova 120 o 140px) */
+  width: auto;
+  margin-bottom: 5px; /* riduce lo spazio sotto il logo */
+}
 
-header .logo {
-  max-height: 120px;
+header h1 {
+  margin-top: 0;   /* elimina spazio extra sopra la scritta */
 }
 
 nav {
