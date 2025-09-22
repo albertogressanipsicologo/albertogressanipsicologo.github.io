@@ -102,3 +102,6 @@ footer {
   background-color: #2B4C7E; /* blu scuro logo */
   transform: scale(1.1);     /* effetto ingrandimento al passaggio */
 }
+.testo-giustificato {
+  text-align: justify;
+}
