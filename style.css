@@ -14,7 +14,7 @@ header {
   border-bottom: 2px solid #ddd;
 }
 .logo-container {
-  display: flex;
+  display: center;
   align-items: center;
   gap: 10px; /* spazio tra logo e testo */
 }
