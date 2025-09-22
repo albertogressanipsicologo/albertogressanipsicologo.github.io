@@ -13,14 +13,9 @@ header {
   background: #fdfdfd;
   border-bottom: 2px solid #ddd;
 }
-.logo-container {
-  display: block;
-  gap: 5px; /* spazio tra logo e testo */
-}
 
 header .logo {
-  max-height: 150px;
-  margin: 0 auto;
+  max-height: 120px;
 }
 
 nav {
