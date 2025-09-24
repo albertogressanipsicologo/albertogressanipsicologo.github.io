@@ -10,9 +10,9 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #333; /* grigio scuro */
+  background-color: rgba(51, 51, 51, 0.5); /* grigio scuro semi-trasparente */
   color: #f5f5f5; /* testo chiaro */
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid rgba (221, 221, 221, 0.5); /* bordo semi-trasparente*/
 }
 .logo {
   height: 150px;   /* aumenta la dimensione del logo (prova 120 o 140px) */
@@ -30,7 +30,7 @@ header p {
   }
 
 nav {
-  background: #4A90E2;
+  background: #333;
   text-align: center;
   padding: 10px;
 }
